@@ -1,9 +1,9 @@
 # rssfeeder
 python cgi script 'feeds.py' queries some newsy sites' rss links to populate local html pages with headlines
-  Assuming a Linux based apache/cgi:
-- feeds.py lives in /usr/lib/cgi-bin 
-- index.html, *.htm and iframepage.html live in /var/www/html
-- or just extract the rssfeeder.tgz tarball
+- Assuming a Linux based apache/cgi:
+  - feeds.py lives in /usr/lib/cgi-bin 
+  - index.html, *.htm and iframepage.html live in /var/www/html
+  - or just extract the rssfeeder.tgz tarball
 
 TODO:
 - fix ugly python script error at end of execution which started after adding a ton more news sites to query from (which oddly enough doesn't prevent the intended functionality from working)
