@@ -3,9 +3,10 @@ python cgi script 'feeds.py' queries some newsy sites' rss links to populate loc
   Assuming a Linux based apache/cgi:
 - feeds.py lives in /usr/lib/cgi-bin 
 - index.html, *.htm and iframepage.html live in /var/www/html
+- or just extract the rssfeeder.tgz tarball
 
 TODO:
-- fix the ugly python script error at end of execution which started after adding a ton more news sites to query from (which oddly enough doesn't prevent the intended functionality from working)
+- fix ugly python script error at end of execution which started after adding a ton more news sites to query from (which oddly enough doesn't prevent the intended functionality from working)
 - add some jquery to provide proper status feedback when waiting on the refresh button (this broke after adding a ton more queries)
 - add more sites
 - cleanup code to shorten and beautify
